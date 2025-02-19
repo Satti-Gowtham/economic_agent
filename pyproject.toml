@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "economic-agent"
+version = "0.1.0"
+description = "A simple economic agent"
+authors = ["Gowtham Satti <sattigowtham1999@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
+python-dotenv = "^1.0.1"
+eth-account = "^0.13.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
